@@ -61,7 +61,7 @@ main {
     gap: 10px;
 }
 
-/*Section do Perfil*/
+/*================Section do Perfil================*/
 
 .menu {
     background-color: var(--menu);
@@ -108,7 +108,7 @@ main {
     justify-content: space-between;
 }
 
-/*================*/
+/*================Container Principal================*/
 
 .main__container {
     background-color: var(--menu);
@@ -123,6 +123,31 @@ main {
     width: 649px;
     height: 418px;
     justify-content: space-between;
+}
+
+.home__page{
+    color: white;
+}
+
+.home__page__header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.home__page__header > h1{
+    font-size: 30px;
+}
+
+.adress{
+    color: #d13136;
+}
+
+.logo__banner{
+    width: 640;
+    height: 60px;
 }
 
 /*============Card Individuais do Times============*/
