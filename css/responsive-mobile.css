@@ -1,0 +1,209 @@
+@media (max-width: 650px) {
+
+    html,
+    body {
+        background-color: var(--body-background);
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*Section do Perfil*/
+
+    .perfil {
+        background-color: var(--perfil-background);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        border-radius: 15px;
+        margin: 100px 0 0 0px;
+        width: 400px;
+        height: 150px;
+    }
+
+    .foto-perfil {
+        width: 80px;
+        margin-top: -50px;
+    }
+
+    .section-1 {
+        display: grid;
+    }
+
+    /*Texto do Perfil*/
+
+    .text-1 {
+        font-size: 15px;
+        font-weight: 100;
+        display: flex;
+        height: 130px;
+        text-align: center;
+        overflow-wrap: break-word;
+        width: 50%;
+        padding: 0;
+        margin: 0;
+        color: var(--fonte-secundaria);
+    }
+
+    .text-2 {
+        font-size: 20px;
+        color: var(--font-primaria);
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        padding: 0;
+        margin: 0;
+    }
+
+    .info {
+        margin-top: -60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*Datas do Perfil*/
+
+    .datas {
+        background-color: var(--datas-div-background);
+        border-radius: 15px;
+        margin-top: -50px;
+        height: 100px;
+        z-index: 1;
+    }
+
+    .dwm {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: auto;
+        height: 100px;
+    }
+
+    .daily {
+        color: var(--fonte-secundaria);
+        font-size: 25px;
+        padding-top: 60px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .weekly {
+        color: var(--font-primaria);
+        font-size: 25px;
+    }
+
+    .monthly {
+        color: var(--fonte-secundaria);
+        font-size: 25px;
+    }
+
+    /*Divs Gerais*/
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 30px;
+        padding: 0;
+        position: relative;
+        width: 442px;
+        justify-content: space-between;
+    }
+
+    /*Divs Individuais*/
+
+    .work,
+    .play,
+    .study,
+    .exercise,
+    .social,
+    .self-care {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        background-color: var(--datas-div-background);
+        border-radius: 15px;
+        margin: 60px 0 0 22px;
+        width: 400px;
+        height: 162px;
+        z-index: 1;
+    }
+
+    /*Background das Divs*/
+
+    .work-background,
+    .play-background,
+    .study-background,
+    .exercise-background,
+    .social-background,
+    .self-care-background {
+        border-radius: 15px;
+        width: 400px;
+        margin: 60px 0 0 22px;
+        height: 170px;
+        margin-top: -200px;
+        z-index: -1;
+    }
+
+
+    /*Configs padrões de todos as outras Divs*/
+
+    .background-image {
+        width: 50px;
+        padding-left: 330px;
+    }
+
+    .reticencias {
+        margin: 20px 0 0 230px;
+        position: absolute;
+        text-align: right;
+        display: flex;
+        justify-content: right;
+    }
+
+    .titulos {
+        display: inline-block;
+        width: 150px;
+        margin-left: 25px;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    .titulo {
+        color: var(--font-primaria);
+        font-size: 15px;
+        margin: 0px;
+        text-align: left;
+    }
+
+    .tempo {
+        color: var(--font-primaria);
+        font-size: 40px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .tempo-anterior {
+        color: var(--font-primaria);
+        font-size: 10px;
+        margin: 0;
+        text-align: center;
+    }
+}
