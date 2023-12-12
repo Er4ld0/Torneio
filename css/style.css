@@ -125,8 +125,13 @@ main {
     justify-content: space-between;
 }
 
+/*================Card da Página Inicial================*/
+
 .home__page{
     color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .home__page__header{
@@ -141,6 +146,48 @@ main {
     font-size: 30px;
 }
 
+.home__page__text{
+    padding: 10px 0;
+    background-color: #2d1c6b;
+}
+
+.home__page__text > p{
+    margin: 0;
+}
+
+.home__page__desc{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.home__page__desc:nth-child(3){
+    padding: 10px;
+    background-color: #2d1c6b;
+}
+
+.home__page__desc:nth-child(4){
+    padding: 10px 0;
+    background-color: #2d1c6b;
+}
+
+.home__page__desc:last-child{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 100;
+    padding: 10px 10px;
+    background-color: #6b1c1f;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.home__page__desc > p{
+    margin: 0;
+}
+
 .adress{
     color: #d13136;
 }
@@ -148,6 +195,17 @@ main {
 .logo__banner{
     width: 640;
     height: 60px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__img{
+    width: 640px;
+    height: 70px;
 }
 
 /*============Card Individuais do Times============*/
