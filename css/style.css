@@ -139,7 +139,7 @@ main {
 
 /*============Background dos Times============*/
 
-.corvos{
+/*.corvos{
     background-color: var(--corvos-background);
 }
 
@@ -163,6 +163,8 @@ main {
 .yokohama{
     background-color: var(--yokohama-background);
 }
+
+*/
 
 .corvos-background,
 .azus-background,
@@ -525,7 +527,7 @@ main {
     flex-direction: row;
 }
 
-.first-game, .second-game, .semi-final{
+.first-game, .second-game, .semi-final, .grand-final{
     border-right: 1px solid white;
     border-radius: 15px;
 }
@@ -533,6 +535,7 @@ main {
 .first-game, .second-game, .semi-final, .grand-final{
     height: 100%;
     padding: 0 15px;
+    background-color: #2d1c6b;
 }
 
 .main__menu__text{
@@ -543,8 +546,8 @@ main {
     display: flex;
     align-items: center;
     grid-area: 30px;
-    color: black;
-    background-color: rgb(253, 253, 253);
+    color: white;
+    background-color: #2d1c6b;
     border-left: 1px solid black;
     border-right: 1px solid black;
 }
@@ -613,6 +616,8 @@ td.thead{
 
 td, th{
     width: 100px;
+    color: white;
+    background-color: rgba(53, 52, 52, 0.418);
     border: 2px solid white;
     border-radius: 10px;
 }
