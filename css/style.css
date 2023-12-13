@@ -715,7 +715,7 @@ tbody th{
 
 /*============Card das Partidas============*/
 
-.pjogo{
+.pjogo, .sjogo, .semifinal, .final__card{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -733,15 +733,7 @@ tbody th{
     margin: 0;
 }
 
-.sjogo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.primeira-rodada{
+.primeira-rodada, .segunda-rodada, .semifinal__card, .final__card{
     margin-top: -5px;
     width: 100%;
     height: 370px;
@@ -769,7 +761,7 @@ tbody th{
     background-color: #6b1c1f;
 }
 
-.segunda-rodada{
+.semifinal__card{
     margin-top: -5px;
     width: 100%;
     height: 370px;
@@ -777,7 +769,7 @@ tbody th{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 12px;
+    gap: 25px;
 }
 
 .score{
@@ -792,10 +784,39 @@ tbody th{
     gap: 5px;
 }
 
+.score__team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3px;
+    width: 2000px;
+    height: 20px;
+    background-color: #2d1c6b;
+    border: 1px solid white;
+    border-left: 10px solid #6b1c1f;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.score__team__2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2px;
+    width: 2000px;
+    height: 20px;
+    background-color: #2d1c6b;
+    border: 1px solid white;
+    border-right: 10px solid #6b1c1f;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
 .score__team__corvos{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 2px;
     width: 2000px;
     height: 20px;
     background-color: #2d1c6b;
@@ -809,6 +830,7 @@ tbody th{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 2px;
     width: 2000px;
     height: 20px;
     background-color: #2d1c6b;
@@ -822,6 +844,7 @@ tbody th{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 2px;
     width: 2000px;
     height: 20px;
     background-color: #2d1c6b;
@@ -835,6 +858,7 @@ tbody th{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 2px;
     width: 2000px;
     height: 20px;
     background-color: #2d1c6b;
@@ -848,6 +872,7 @@ tbody th{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 2px;
     width: 2000px;
     height: 20px;
     background-color: #2d1c6b;
@@ -861,6 +886,7 @@ tbody th{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 2px;
     width: 2000px;
     height: 20px;
     background-color: #2d1c6b;
@@ -874,6 +900,7 @@ tbody th{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 2px;
     width: 2000px;
     height: 20px;
     background-color: #2d1c6b;
@@ -887,6 +914,7 @@ tbody th{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 2px;
     width: 2000px;
     height: 20px;
     background-color: #2d1c6b;
@@ -900,6 +928,7 @@ tbody th{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 2px;
     width: 2000px;
     height: 20px;
     background-color: #2d1c6b;
@@ -913,6 +942,7 @@ tbody th{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 2px;
     width: 2000px;
     height: 20px;
     background-color: #2d1c6b;
@@ -926,6 +956,7 @@ tbody th{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 2px;
     width: 2000px;
     height: 20px;
     background-color: #2d1c6b;
@@ -939,6 +970,7 @@ tbody th{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 2px;
     width: 2000px;
     height: 20px;
     background-color: #2d1c6b;
