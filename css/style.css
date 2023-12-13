@@ -23,7 +23,7 @@
     --corvos-background: rgb(0, 122, 16);
     --azus-background: rgb(204, 0, 136);
     --aguias-background: rgb(29, 18, 189);
-    --yeshua-background: rgb(95, 95, 95);
+    --yeshua-background: rgb(82, 82, 82);
     --kadosh-background: rgb(255, 255, 255);
     --yokohama-background: rgb(0, 0, 0);
 
@@ -1004,4 +1004,8 @@ tbody th{
 
 .score__logo{
     width: 30px;
+}
+
+.score__img{
+    width: 450px;
 }
