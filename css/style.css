@@ -505,6 +505,7 @@ main {
 }
 
 .main__container__table h1 {
+    background-color: #6b1c1f;
     font-size: 20px;
     color: white;
     width: 100%;
@@ -754,6 +755,20 @@ tbody th {
     justify-content: center;
     flex-direction: column;
     gap: 12px;
+}
+
+.semifinal__card > .jogos{
+    display: flex;
+    gap: 25px;
+}
+
+.jogos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .score__header {
