@@ -512,6 +512,10 @@
             gap: 5px;
         }
 
+        .menu__games .menu__items{
+            margin-top: -2px;
+        }
+
         .menu__items>span {
             color: white;
             text-transform: uppercase;
