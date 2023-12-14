@@ -563,11 +563,13 @@
         }
 
         .main__menu__form {
+            width: 350px;
             border: 1px solid white;
             border-radius: 15px;
             display: flex;
             align-items: center;
             justify-content: center;
+            flex-direction: column;
 
         }
 
@@ -575,15 +577,34 @@
         .second-game,
         .semi-final,
         .grand-final {
-            border-right: 1px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border-bottom: 1px solid white;
             border-radius: 15px;
         }
 
+        .first-game>h3,
+        .second-game>h3,
+        .semi-final>h3,
+        .grand-final>h3 {
+            margin: 0;
+        }
+
+        .first-game>p,
+        .second-game>p,
+        .semi-final>p,
+        .grand-final>p {
+            margin: 0;
+        }
+
         .first-game,
         .second-game,
         .semi-final,
         .grand-final {
-            height: 170px;
+            width: 320px;
+            height: 80px;
             padding: 0 15px;
             background-color: #2d1c6b;
         }
