@@ -474,7 +474,7 @@
             position: relative;
             border-radius: 15px;
             width: 350px;
-            height: 710px;
+            height: fit-content;
             justify-content: space-between;
         }
 
@@ -750,7 +750,13 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            gap: 39.28px;
+            gap: 58.5px;
+        }
+
+        .jogos{
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
         }
 
         .score__header {
@@ -771,14 +777,27 @@
         }
 
         .semifinal__card {
-            margin-top: -5px;
             width: 100%;
-            height: 370px;
+            height: fit-content;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
             gap: 25px;
+        }
+
+        .semifinal__card > .jogos{
+            gap: 70.172px;
+        }
+
+        .semifinal__card {
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 85px;
         }
 
         /*============Configs Gerais Placar============*/
