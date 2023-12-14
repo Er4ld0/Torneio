@@ -466,12 +466,12 @@
             position: relative;
             border-radius: 15px;
             width: 350px;
-            height: 418px;
+            height: 100%;
             justify-content: space-between;
         }
 
         .main__container__table h1 {
-            font-size: 20px;
+            font-size: 12px;
             color: white;
             width: 100%;
             height: 50px;
@@ -500,7 +500,7 @@
 
         .menu__items {
             width: 350px;
-            font-size: 10px;
+            font-size: 8px;
             gap: 5px;
         }
 
@@ -541,7 +541,7 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            gap: 20px;
+            gap: 0px;
         }
 
         .games__main>div {
@@ -560,7 +560,6 @@
             display: flex;
             height: 100%;
             text-align: center;
-            flex-direction: column;
         }
 
         .main__menu__form {
