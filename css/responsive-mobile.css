@@ -97,7 +97,7 @@
             color: white;
             display: flex;
             flex-direction: column;
-            gap: 7px;
+            gap: 26px;
         }
 
         .home__page__header {
@@ -118,7 +118,7 @@
 
         .home__page__text>p {
             font-size: 20px;
-            margin: 1px 55px;
+            margin: 1px 20px;
         }
 
         .home__page__desc {
