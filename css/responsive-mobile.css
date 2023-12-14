@@ -787,17 +787,18 @@
         }
 
         .semifinal__card {
+            margin-bottom: 88px;
             width: 100%;
             height: fit-content;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            gap: 25px;
+            gap: 38px;
         }
 
         .semifinal__card>.jogos {
-            gap: 70.172px;
+            gap: 63.5px;
         }
 
         .semifinal__card {
@@ -807,7 +808,6 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            gap: 85px;
         }
 
         /*============Configs Gerais Placar============*/
