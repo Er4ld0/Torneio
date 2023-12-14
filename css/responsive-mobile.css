@@ -1,209 +1,979 @@
 @media (max-width: 650px) {
 
-    html,
-    body {
-        background-color: var(--body-background);
-        height: 100%;
-        width: 100%;
-        padding: 0;
-        margin: 0;
+    @media (max-width: 800px) {
+
+        html,
+        body {
+            background-color: rgb(18, 0, 58);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        main {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        /*================Section do Perfil================*/
+
+        .menu {
+            background-color: var(--menu);
+            border-radius: 15px;
+            display: block;
+            margin: 0;
+            width: 400px;
+            height: 50px;
+            position: relative;
+        }
+
+        .menu__items>a {
+            color: white;
+        }
+
+        .menu__item__link {
+            height: 50px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .active {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 50px;
+            border-radius: 15px;
+            background-color: var(--perfil-background);
+        }
+
+        /*Divs Gerais*/
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            position: relative;
+            width: 650px;
+            height: 418px;
+            justify-content: space-between;
+        }
+
+        /*================Container Principal================*/
+
+        .main__container {
+            background-color: var(--menu);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            border-radius: 15px;
+            width: 400px;
+            height: 418px;
+            justify-content: space-between;
+        }
+
+        /*================Card da Página Inicial================*/
+
+        .home__page {
+            color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .home__page__header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0px;
+        }
+
+        .home__page__header>h1 {
+            font-size: 33px;
+        }
+
+        .home__page__text {
+            padding: 10px 0;
+            background-color: #2d1c6b;
+        }
+
+        .home__page__text>p {
+            margin: 1px 15px;
+        }
+
+        .home__page__desc {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        .home__page__desc:nth-child(3) {
+            padding: 10px;
+            background-color: #2d1c6b;
+        }
+
+        .home__page__desc:nth-child(4) {
+            display: none;
+        }
+
+        .home__page__desc:last-child {
+            font-size: 15px;
+            font-style: italic;
+            font-weight: 100;
+            padding: 10px 10px;
+            background-color: #6b1c1f;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+
+        .home__page__desc>p {
+            margin: 0;
+        }
+
+        .adress {
+            color: #d13136;
+        }
+
+        .logo__banner {
+            margin-left: 15px;
+        }
+
+        .banner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .banner__img {
+            width: 640px;
+            height: 70px;
+        }
+
+        /*============Card Individuais do Times============*/
+
+        .card__team {
+            display: flex;
+            position: relative;
+            background-color: var(--menu);
+            border-radius: 15px;
+            width: 200px;
+            height: 162px;
+            z-index: 1;
+        }
+
+        /*============Background dos Times============*/
+
+        /*.corvos{
+        background-color: var(--corvos-background);
     }
-
-    body {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    
+    .azus{
+        background-color: var(--azus-background);
     }
-
-    main {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    
+    .aguias{
+        background-color: var(--aguias-background);
     }
-
-    /*Section do Perfil*/
-
-    .perfil {
-        background-color: var(--perfil-background);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        border-radius: 15px;
-        margin: 100px 0 0 0px;
-        width: 400px;
-        height: 150px;
+    
+    .yeshua{
+        background-color: var(--yeshua-background);
     }
-
-    .foto-perfil {
-        width: 80px;
-        margin-top: -50px;
+    
+    .kadosh{
+        color: black;
+        background-color: var(--kadosh-background);
     }
-
-    .section-1 {
-        display: grid;
+    
+    .yokohama{
+        background-color: var(--yokohama-background);
     }
+    
+    */
 
-    /*Texto do Perfil*/
+        .corvos-background,
+        .azus-background,
+        .aguias-background,
+        .yeshua-background,
+        .kadosh-background,
+        .yokohama-background {
+            border-radius: 15px;
+            width: 200px;
+            height: 170px;
+            margin-top: -200px;
+            z-index: -1;
+        }
 
-    .text-1 {
-        font-size: 15px;
-        font-weight: 100;
-        display: flex;
-        height: 130px;
-        text-align: center;
-        overflow-wrap: break-word;
-        width: 50%;
-        padding: 0;
-        margin: 0;
-        color: var(--fonte-secundaria);
-    }
+        .corvos-background {
+            background-color: var(--corvos-background);
+        }
 
-    .text-2 {
-        font-size: 20px;
-        color: var(--font-primaria);
-        width: 100%;
-        display: flex;
-        align-items: start;
-        justify-content: start;
-        padding: 0;
-        margin: 0;
-    }
+        .corvos-background>h1 {
+            color: white;
+        }
 
-    .info {
-        margin-top: -60px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+        .azus-background {
+            background-color: var(--azus-background);
+        }
 
-    /*Datas do Perfil*/
+        .azus-background>h1 {
+            color: black;
+        }
 
-    .datas {
-        background-color: var(--datas-div-background);
-        border-radius: 15px;
-        margin-top: -50px;
-        height: 100px;
-        z-index: 1;
-    }
+        .aguias-background {
+            background-color: var(--aguias-background);
+        }
 
-    .dwm {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0;
-        margin: auto;
-        height: 100px;
-    }
+        .aguias-background>h1 {
+            color: white;
+        }
 
-    .daily {
-        color: var(--fonte-secundaria);
-        font-size: 25px;
-        padding-top: 60px;
-        margin: 0;
-        padding: 0;
-    }
+        .yeshua-background {
+            background-color: var(--yeshua-background);
+        }
 
-    .weekly {
-        color: var(--font-primaria);
-        font-size: 25px;
-    }
+        .yeshua-background>h1 {
+            color: white;
+        }
 
-    .monthly {
-        color: var(--fonte-secundaria);
-        font-size: 25px;
-    }
+        .kadosh-background {
+            background-color: var(--kadosh-background);
+        }
 
-    /*Divs Gerais*/
+        .kadosh-background>h1 {
+            color: black;
+        }
 
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        gap: 30px;
-        padding: 0;
-        position: relative;
-        width: 442px;
-        justify-content: space-between;
-    }
+        .yokohama-background {
+            background-color: var(--yokohama-background);
+        }
 
-    /*Divs Individuais*/
+        .yokohama-background>h1 {
+            color: white;
+        }
 
-    .work,
-    .play,
-    .study,
-    .exercise,
-    .social,
-    .self-care {
-        display: flex;
-        justify-content: center;
-        position: relative;
-        background-color: var(--datas-div-background);
-        border-radius: 15px;
-        margin: 60px 0 0 22px;
-        width: 400px;
-        height: 162px;
-        z-index: 1;
-    }
+        /*============Card dos Times============*/
 
-    /*Background das Divs*/
+        .card__team {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            line-height: 50px;
+        }
 
-    .work-background,
-    .play-background,
-    .study-background,
-    .exercise-background,
-    .social-background,
-    .self-care-background {
-        border-radius: 15px;
-        width: 400px;
-        margin: 60px 0 0 22px;
-        height: 170px;
-        margin-top: -200px;
-        z-index: -1;
-    }
+        .team__name {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 20px;
+            color: var(--font-primaria);
+            font-size: 20px;
+            margin: 0px;
+            padding-top: 10px;
+        }
 
+        .team__info {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
 
-    /*Configs padrões de todos as outras Divs*/
+        .team__info__header {
+            color: white;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+        }
 
-    .background-image {
-        width: 50px;
-        padding-left: 330px;
-    }
+        .team__rows {
+            display: flex;
+            gap: 40px;
+            font-size: 12px;
+            font-weight: lighter;
+        }
 
-    .reticencias {
-        margin: 20px 0 0 230px;
-        position: absolute;
-        text-align: right;
-        display: flex;
-        justify-content: right;
-    }
+        .team__info__header>h4 {
+            height: 20px;
+            font-weight: 500;
+        }
 
-    .titulos {
-        display: inline-block;
-        width: 150px;
-        margin-left: 25px;
-        text-align: center;
-        line-height: 50px;
-    }
+        .team {
+            width: 70px;
+            margin: 10px;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 5px;
+        }
 
-    .titulo {
-        color: var(--font-primaria);
-        font-size: 15px;
-        margin: 0px;
-        text-align: left;
-    }
+        .team__member {
+            height: 20px;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            text-align: center;
+            gap: 10px;
+        }
 
-    .tempo {
-        color: var(--font-primaria);
-        font-size: 40px;
-        margin: 0;
-        text-align: center;
-    }
+        .position {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            gap: 5px;
+        }
 
-    .tempo-anterior {
-        color: var(--font-primaria);
-        font-size: 10px;
-        margin: 0;
-        text-align: center;
+        .team__position {
+            height: 20px;
+            display: flex;
+            justify-content: right;
+            flex-direction: row;
+            text-align: center;
+            gap: 10px;
+        }
+
+        .team__member__position {
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            text-align: right;
+            height: 23px;
+        }
+
+        .team__member__name {
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            text-align: left;
+            height: 23px;
+        }
+
+        .captain__img {
+            width: 20px;
+            height: 20px;
+        }
+
+        /*============Card da Arbitragem============*/
+
+        .referee__container {
+            color: white;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            flex-direction: column;
+        }
+
+        .referee {
+            font-size: 14px;
+            height: 30px;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            text-align: center;
+        }
+
+        .referee__container>h2,
+        .marking>h2 {
+            font-size: 17px;
+            margin: 0;
+        }
+
+        .marking {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .marking__items {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 5px;
+            text-align: left;
+        }
+
+        .marking__alert {
+            background-color: #DA2244;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .marking__alert>p>em {
+            font-size: 14px;
+            height: 52px;
+            color: white;
+            font-weight: 100;
+            text-align: center;
+        }
+
+        .alert__img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .referee__img {
+            width: 30px;
+        }
+
+        /*============Card Partidas============*/
+
+        .main__container__table {
+            background-color: var(--menu);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            border-radius: 15px;
+            width: 400px;
+            height: 418px;
+            justify-content: space-between;
+        }
+
+        .main__container__table h1 {
+            font-size: 20px;
+            color: white;
+            width: 100%;
+            height: 50px;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .main__container>p {
+            padding: 0 30px;
+        }
+
+        /*============Card do Menu Partidas============*/
+
+        .menu__games {
+            background-color: var(--menu);
+            border-radius: 15px;
+            display: block;
+            margin-right: 25px;
+            width: 649px;
+            height: 50px;
+            position: relative;
+        }
+
+        .menu__items {
+            width: 400px;
+            font-size: 10px;
+            gap: 5px;
+        }
+
+        .menu__items>span {
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+            width: 130px;
+            height: 50px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .menu__items>span:hover {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 50px;
+            border-radius: 15px;
+            background-color: var(--perfil-background);
+            cursor: pointer;
+        }
+
+        .menu__games__items>span {
+            color: white;
+        }
+
+        /*============Card do Formato de Jogo============*/
+
+        .games__main {
+            font-size: 13px;
+            color: white;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .games__main>div {
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        .games__main__menu {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 100%;
+
+        }
+
+        .games__main__menu>div {
+            height: 100%;
+            text-align: center;
+        }
+
+        .main__menu__form {
+            border: 1px solid white;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+        }
+
+        .first-game,
+        .second-game,
+        .semi-final,
+        .grand-final {
+            border-right: 1px solid white;
+            border-radius: 15px;
+        }
+
+        .first-game,
+        .second-game,
+        .semi-final,
+        .grand-final {
+            height:170px;
+            padding: 0 15px;
+            background-color: #2d1c6b;
+        }
+
+        .main__menu__text {
+            font-size: 15px;
+            font-weight: 400;
+            font-style: italic;
+            padding: 8px 20px;
+            display: flex;
+            align-items: center;
+            grid-area: 30px;
+            color: white;
+            background-color: #2d1c6b;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+
+        .info__img {
+            width: 40px;
+            height: 40px;
+        }
+
+        /*============Card da Tabela============*/
+
+        .tabela {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 0 15px;
+        }
+
+        .tabela h1 {
+            height: 30px;
+        }
+
+        .tabela h1:first-of-type {
+            padding-top: 8px;
+        }
+
+        .tabela__points {
+            font-size: 14px;
+            font-weight: bolder;
+            font-style: italic;
+            text-transform: uppercase;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .tabela__points>li:first-of-type {
+            color: green;
+        }
+
+        .tabela__points>li:last-of-type {
+            color: red;
+        }
+
+        table {
+
+            color: white;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .tbody1 td.thead {
+            width: 600px;
+            margin: 0;
+            padding: 0;
+        }
+
+        td.thead {
+            width: 1263px;
+        }
+
+        td,
+        th {
+            width: 100px;
+            color: white;
+            background-color: rgba(53, 52, 52, 0.418);
+            border: 2px solid white;
+            border-radius: 10px;
+        }
+
+        tbody th {
+            width: 400px;
+        }
+
+        .thead {
+            width: 350px;
+        }
+
+        /*============Card das Partidas============*/
+
+        .pjogo,
+        .sjogo,
+        .semifinal,
+        .final__card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .pjogo>h1 {
+            height: 40px;
+        }
+
+        .pjogo>p {
+            color: white;
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .primeira-rodada,
+        .segunda-rodada,
+        .semifinal__card,
+        .final__card {
+            margin-top: -5px;
+            width: 100%;
+            height: 370px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .score__header {
+            width: 100%;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .score__header>h1 {
+            font-size: 14px;
+            width: 100%;
+            height: 20px;
+            background-color: #6b1c1f;
+        }
+
+        .semifinal__card {
+            margin-top: -5px;
+            width: 100%;
+            height: 370px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        /*============Configs Gerais Placar============*/
+
+        .score {
+            font-size: 16px;
+            color: white;
+            width: 400px;
+            height: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            gap: 5px;
+        }
+
+        .score__team {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 3px;
+            width: 2000px;
+            height: 20px;
+            background-color: #2d1c6b;
+            border: 1px solid white;
+            border-left: 10px solid #6b1c1f;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        .score__team__2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 2px;
+            width: 2000px;
+            height: 20px;
+            background-color: #2d1c6b;
+            border: 1px solid white;
+            border-right: 10px solid #6b1c1f;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        .score__points {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px 0;
+            width: 400px;
+            height: 20px;
+            background-color: #6b1c1f;
+            border: 1px solid white;
+        }
+
+        .score__logo {
+            width: 30px;
+        }
+
+        .score__img {
+            width: 450px;
+        }
+
+        /*============Configs Individuais do Placar dos Times============*/
+
+        .score__team__corvos {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 2px;
+            width: 2000px;
+            height: 20px;
+            background-color: #2d1c6b;
+            border: 1px solid white;
+            border-left: 10px solid var(--corvos-background);
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        .score__team__corvos__2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 2px;
+            width: 2000px;
+            height: 20px;
+            background-color: #2d1c6b;
+            border: 1px solid white;
+            border-right: 10px solid var(--corvos-background);
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        .score__team__kadosh {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 2px;
+            width: 2000px;
+            height: 20px;
+            background-color: #2d1c6b;
+            border: 1px solid white;
+            border-right: 10px solid var(--kadosh-background);
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        .score__team__kadosh__2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 2px;
+            width: 2000px;
+            height: 20px;
+            background-color: #2d1c6b;
+            border: 1px solid white;
+            border-left: 10px solid var(--kadosh-background);
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        .score__team__aguias {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 2px;
+            width: 2000px;
+            height: 20px;
+            background-color: #2d1c6b;
+            border: 1px solid white;
+            border-left: 10px solid var(--aguias-background);
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        .score__team__aguias__2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 2px;
+            width: 2000px;
+            height: 20px;
+            background-color: #2d1c6b;
+            border: 1px solid white;
+            border-right: 10px solid var(--aguias-background);
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        .score__team__yeshua {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 2px;
+            width: 2000px;
+            height: 20px;
+            background-color: #2d1c6b;
+            border: 1px solid white;
+            border-right: 10px solid var(--yeshua-background);
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        .score__team__yeshua__2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 2px;
+            width: 2000px;
+            height: 20px;
+            background-color: #2d1c6b;
+            border: 1px solid white;
+            border-left: 10px solid var(--yeshua-background);
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        .score__team__azus {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 2px;
+            width: 2000px;
+            height: 20px;
+            background-color: #2d1c6b;
+            border: 1px solid white;
+            border-left: 10px solid var(--azus-background);
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        .score__team__azus__2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 2px;
+            width: 2000px;
+            height: 20px;
+            background-color: #2d1c6b;
+            border: 1px solid white;
+            border-right: 10px solid var(--azus-background);
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        .score__team__yokohama {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 2px;
+            width: 2000px;
+            height: 20px;
+            background-color: #2d1c6b;
+            border: 1px solid white;
+            border-right: 10px solid var(--yokohama-background);
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        .score__team__yokohama__2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 2px;
+            width: 2000px;
+            height: 20px;
+            background-color: #2d1c6b;
+            border: 1px solid white;
+            border-left: 10px solid var(--yokohama-background);
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
     }
 }

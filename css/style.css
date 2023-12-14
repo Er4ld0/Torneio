@@ -38,7 +38,7 @@
     --font: 'Overpass';
 }
 
-/*Configs do Body e Main*/
+/*================Configs do Body e Main================*/
 
 html,
 body {
@@ -73,7 +73,7 @@ main {
     position: relative;
 }
 
-.menu__items > a{
+.menu__items>a {
     color: white;
 }
 
@@ -127,14 +127,14 @@ main {
 
 /*================Card da Página Inicial================*/
 
-.home__page{
+.home__page {
     color: white;
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-.home__page__header{
+.home__page__header {
     width: 100%;
     display: flex;
     align-items: center;
@@ -142,20 +142,20 @@ main {
     gap: 10px;
 }
 
-.home__page__header > h1{
+.home__page__header>h1 {
     font-size: 30px;
 }
 
-.home__page__text{
+.home__page__text {
     padding: 10px 0;
     background-color: #2d1c6b;
 }
 
-.home__page__text > p{
+.home__page__text>p {
     margin: 0;
 }
 
-.home__page__desc{
+.home__page__desc {
     height: 100%;
     display: flex;
     align-items: center;
@@ -164,17 +164,17 @@ main {
     gap: 5px;
 }
 
-.home__page__desc:nth-child(3){
+.home__page__desc:nth-child(3) {
     padding: 10px;
     background-color: #2d1c6b;
 }
 
-.home__page__desc:nth-child(4){
+.home__page__desc:nth-child(4) {
     padding: 10px 0;
     background-color: #2d1c6b;
 }
 
-.home__page__desc:last-child{
+.home__page__desc:last-child {
     font-size: 15px;
     font-style: italic;
     font-weight: 100;
@@ -184,26 +184,26 @@ main {
     border-bottom-right-radius: 15px;
 }
 
-.home__page__desc > p{
+.home__page__desc>p {
     margin: 0;
 }
 
-.adress{
+.adress {
     color: #d13136;
 }
 
-.logo__banner{
+.logo__banner {
     width: 640;
     height: 60px;
 }
 
-.banner{
+.banner {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.banner__img{
+.banner__img {
     width: 640px;
     height: 70px;
 }
@@ -503,7 +503,7 @@ main {
     justify-content: space-between;
 }
 
-.main__container__table h1{
+.main__container__table h1 {
     font-size: 20px;
     color: white;
     width: 100%;
@@ -521,7 +521,7 @@ main {
 
 /*============Card do Menu Partidas============*/
 
-.menu__games{
+.menu__games {
     background-color: var(--menu);
     border-radius: 15px;
     display: block;
@@ -555,7 +555,7 @@ main {
     justify-content: center;
 }
 
- .menu__items>span:hover {
+.menu__items>span:hover {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -566,13 +566,13 @@ main {
     cursor: pointer;
 }
 
-.menu__games__items>span{
+.menu__games__items>span {
     color: white;
 }
 
 /*============Card do Formato de Jogo============*/
 
-.games__main{
+.games__main {
     font-size: 13px;
     color: white;
     width: 100%;
@@ -583,25 +583,25 @@ main {
     gap: 20px;
 }
 
-.games__main>div{
+.games__main>div {
     border-radius: 5px;
     width: 100%;
 }
 
-.games__main__menu{
+.games__main__menu {
     display: flex;
     flex-direction: column;
     gap: 15px;
     width: 100%;
-    
+
 }
 
-.games__main__menu>div{
+.games__main__menu>div {
     height: 100%;
     text-align: center;
 }
 
-.main__menu__form{
+.main__menu__form {
     border: 1px solid white;
     border-radius: 15px;
     display: flex;
@@ -610,18 +610,24 @@ main {
     flex-direction: row;
 }
 
-.first-game, .second-game, .semi-final, .grand-final{
+.first-game,
+.second-game,
+.semi-final,
+.grand-final {
     border-right: 1px solid white;
     border-radius: 15px;
 }
 
-.first-game, .second-game, .semi-final, .grand-final{
+.first-game,
+.second-game,
+.semi-final,
+.grand-final {
     height: 100%;
     padding: 0 15px;
     background-color: #2d1c6b;
 }
 
-.main__menu__text{
+.main__menu__text {
     font-size: 15px;
     font-weight: 400;
     font-style: italic;
@@ -635,28 +641,29 @@ main {
     border-right: 1px solid black;
 }
 
-.info__img{
+.info__img {
     width: 40px;
     height: 40px;
 }
 
 /*============Card da Tabela============*/
 
-.tabela{
+.tabela {
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 0 15px;
 }
 
-.tabela h1{
+.tabela h1 {
     height: 30px;
 }
-.tabela h1:first-of-type{
+
+.tabela h1:first-of-type {
     padding-top: 8px;
 }
 
-.tabela__points{
+.tabela__points {
     font-size: 14px;
     font-weight: bolder;
     font-style: italic;
@@ -668,16 +675,16 @@ main {
     gap: 20px;
 }
 
-.tabela__points > li:first-of-type{
+.tabela__points>li:first-of-type {
     color: green;
 }
 
-.tabela__points > li:last-of-type{
+.tabela__points>li:last-of-type {
     color: red;
 }
 
-table{
-    
+table {
+
     color: white;
     width: 100%;
     display: flex;
@@ -687,17 +694,18 @@ table{
     gap: 20px;
 }
 
-.tbody1 td.thead{
+.tbody1 td.thead {
     width: 600px;
     margin: 0;
     padding: 0;
 }
 
-td.thead{
+td.thead {
     width: 1263px;
 }
 
-td, th{
+td,
+th {
     width: 100px;
     color: white;
     background-color: rgba(53, 52, 52, 0.418);
@@ -705,17 +713,20 @@ td, th{
     border-radius: 10px;
 }
 
-tbody th{
+tbody th {
     width: 400px;
 }
 
-.thead{
+.thead {
     width: 350px;
 }
 
 /*============Card das Partidas============*/
 
-.pjogo, .sjogo, .semifinal, .final__card{
+.pjogo,
+.sjogo,
+.semifinal,
+.final__card {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -723,17 +734,20 @@ tbody th{
     gap: 10px;
 }
 
-.pjogo > h1{
+.pjogo>h1 {
     height: 40px;
 }
 
-.pjogo > p{
+.pjogo>p {
     color: white;
     font-size: 18px;
     margin: 0;
 }
 
-.primeira-rodada, .segunda-rodada, .semifinal__card, .final__card{
+.primeira-rodada,
+.segunda-rodada,
+.semifinal__card,
+.final__card {
     margin-top: -5px;
     width: 100%;
     height: 370px;
@@ -744,7 +758,7 @@ tbody th{
     gap: 12px;
 }
 
-.score__header{
+.score__header {
     width: 100%;
     color: white;
     display: flex;
@@ -754,14 +768,14 @@ tbody th{
     gap: 5px;
 }
 
-.score__header > h1{
+.score__header>h1 {
     font-size: 14px;
     width: 100%;
     height: 20px;
     background-color: #6b1c1f;
 }
 
-.semifinal__card{
+.semifinal__card {
     margin-top: -5px;
     width: 100%;
     height: 370px;
@@ -772,7 +786,9 @@ tbody th{
     gap: 25px;
 }
 
-.score{
+/*============Configs Gerais Placar============*/
+
+.score {
     font-size: 16px;
     color: white;
     width: 400px;
@@ -784,7 +800,7 @@ tbody th{
     gap: 5px;
 }
 
-.score__team{
+.score__team {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -798,7 +814,7 @@ tbody th{
     border-bottom-left-radius: 5px;
 }
 
-.score__team__2{
+.score__team__2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -812,7 +828,28 @@ tbody th{
     border-bottom-right-radius: 5px;
 }
 
-.score__team__corvos{
+.score__points {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+    width: 400px;
+    height: 20px;
+    background-color: #6b1c1f;
+    border: 1px solid white;
+}
+
+.score__logo {
+    width: 30px;
+}
+
+.score__img {
+    width: 450px;
+}
+
+/*============Configs Individuais do Placar dos Times============*/
+
+.score__team__corvos {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -826,7 +863,7 @@ tbody th{
     border-bottom-left-radius: 5px;
 }
 
-.score__team__corvos__2{
+.score__team__corvos__2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -840,7 +877,7 @@ tbody th{
     border-bottom-right-radius: 5px;
 }
 
-.score__team__kadosh{
+.score__team__kadosh {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -854,7 +891,7 @@ tbody th{
     border-bottom-right-radius: 5px;
 }
 
-.score__team__kadosh__2{
+.score__team__kadosh__2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -868,7 +905,7 @@ tbody th{
     border-bottom-left-radius: 5px;
 }
 
-.score__team__aguias{
+.score__team__aguias {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -882,7 +919,7 @@ tbody th{
     border-bottom-left-radius: 5px;
 }
 
-.score__team__aguias__2{
+.score__team__aguias__2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -896,7 +933,7 @@ tbody th{
     border-bottom-right-radius: 5px;
 }
 
-.score__team__yeshua{
+.score__team__yeshua {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -910,7 +947,7 @@ tbody th{
     border-bottom-right-radius: 5px;
 }
 
-.score__team__yeshua__2{
+.score__team__yeshua__2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -924,7 +961,7 @@ tbody th{
     border-bottom-left-radius: 5px;
 }
 
-.score__team__azus{
+.score__team__azus {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -938,7 +975,7 @@ tbody th{
     border-bottom-left-radius: 5px;
 }
 
-.score__team__azus__2{
+.score__team__azus__2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -952,7 +989,7 @@ tbody th{
     border-bottom-right-radius: 5px;
 }
 
-.score__team__yokohama{
+.score__team__yokohama {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -966,7 +1003,7 @@ tbody th{
     border-bottom-right-radius: 5px;
 }
 
-.score__team__yokohama__2{
+.score__team__yokohama__2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -978,34 +1015,4 @@ tbody th{
     border-left: 10px solid var(--yokohama-background);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-}
-
-.score__sets{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    padding: 5px 0;
-    width: 400px;
-    height: 20px;
-    border: 1px solid white;
-}
-
-.score__points{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px 0;
-    width: 400px;
-    height: 20px;
-    background-color: #6b1c1f;
-    border: 1px solid white;
-}
-
-.score__logo{
-    width: 30px;
-}
-
-.score__img{
-    width: 450px;
 }
