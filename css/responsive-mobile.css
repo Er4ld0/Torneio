@@ -754,13 +754,14 @@
         .semifinal__card,
         .final__card {
             margin-top: 5px;
+            margin-bottom: 58px;
             width: 100%;
             height: fit-content;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            gap: 58.5px;
+            gap: 30px;
         }
 
         .jogos {
