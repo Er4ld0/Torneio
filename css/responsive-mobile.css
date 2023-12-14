@@ -731,14 +731,14 @@
         .segunda-rodada,
         .semifinal__card,
         .final__card {
-            margin-top: -5px;
+            margin-top: 5px;
             width: 100%;
-            height: 370px;
+            height: fit-content;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            gap: 12px;
+            gap: 40.7px;
         }
 
         .score__header {
