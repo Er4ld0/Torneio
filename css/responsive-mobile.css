@@ -97,7 +97,7 @@
             color: white;
             display: flex;
             flex-direction: column;
-            gap: 45px;
+            gap: 7px;
         }
 
         .home__page__header {
@@ -135,8 +135,8 @@
             background-color: #2d1c6b;
         }
 
-        .home__page__desc:nth-child(4) {
-            display: none;
+        .home__page__desc:nth-child(4){
+            padding: 10px 20px;
         }
 
         .home__page__desc:last-child {
@@ -150,7 +150,7 @@
         }
 
         .home__page__desc>p {
-            font-size: 20px;
+            font-size: 16px;
             margin: 0;
         }
 
