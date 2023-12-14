@@ -811,6 +811,27 @@
             flex-direction: column;
         }
 
+        .final__card{
+            gap: 41.5px;
+        }
+
+        .ranking__card{
+            gap: 50px;
+            flex-direction: column;
+        }
+
+        .ranking__position > h1{
+            width: 350px;
+            height: 30px;
+        }
+        
+        .ranking__position > p{
+            color: white;
+            background-color: #2d1c6b;
+            width: 350px;
+            height: 30px;
+        }
+
         /*============Configs Gerais Placar============*/
 
         .score {

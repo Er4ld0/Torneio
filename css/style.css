@@ -799,6 +799,41 @@ tbody th {
     gap: 25px;
 }
 
+
+
+.final__card{
+    margin-top: 18px;
+    height: fit-content;
+    gap: 45px;
+}
+
+.final__card>.jogos {
+    gap: 20px;
+}
+
+.ranking__card{
+    display: flex;
+    gap: 0px;
+}
+
+.ranking__position{
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ranking__position > h1{
+    width: 216px;
+    height: 30px;
+}
+
+.ranking__position > p{
+    color: white;
+    background-color: #2d1c6b;
+    width: 216px;
+    height: 30px;
+}
+
 /*============Configs Gerais Placar============*/
 
 .score {
