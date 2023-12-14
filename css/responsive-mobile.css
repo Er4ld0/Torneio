@@ -87,7 +87,7 @@
             position: relative;
             border-radius: 15px;
             width: 350px;
-            height: 418px;
+            height: 710px;
             justify-content: space-between;
         }
 
@@ -97,7 +97,7 @@
             color: white;
             display: flex;
             flex-direction: column;
-            gap: 5px;
+            gap: 45px;
         }
 
         .home__page__header {
@@ -117,7 +117,8 @@
         }
 
         .home__page__text>p {
-            margin: 1px 15px;
+            font-size: 20px;
+            margin: 1px 55px;
         }
 
         .home__page__desc {
@@ -149,6 +150,7 @@
         }
 
         .home__page__desc>p {
+            font-size: 20px;
             margin: 0;
         }
 
@@ -390,19 +392,24 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 30px;
+            gap: 50px;
             flex-direction: column;
         }
 
         .referee {
             font-size: 14px;
-            height: 30px;
+            height: 180px;
             margin: 0;
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 10px;
+            flex-direction: column;
+            gap: 0px;
             text-align: center;
+        }
+
+        .referee:first-of-type{
+            height: 80px;
         }
 
         .referee__container>h2,
@@ -415,7 +422,7 @@
             font-size: 11px;
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: 15px;
         }
 
         .marking__items {
