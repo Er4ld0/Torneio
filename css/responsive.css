@@ -462,9 +462,6 @@
         text-align: center;
         position: relative;
         border-radius: 15px;
-        border-left: 1px solid black;
-        border-right: 1px solid black;
-        border-bottom: 1px solid black;
         width: 649px;
         height: fit-content;
         justify-content: space-between;
@@ -506,7 +503,6 @@
         align-items: center;
         justify-content: center;
         gap: 25px;
-        border: 1px solid black;
         border-radius: 15px;
     }
 
@@ -569,7 +565,6 @@
     }
 
     .main__menu__form {
-        border: 1px solid white;
         border-radius: 15px;
         display: flex;
         align-items: center;
@@ -604,8 +599,6 @@
         grid-area: 30px;
         color: white;
         background-color: #2d1c6b;
-        border-left: 1px solid black;
-        border-right: 1px solid black;
     }
 
     .info__img {
