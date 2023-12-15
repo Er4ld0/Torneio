@@ -820,7 +820,7 @@ tbody th {
 .final__card {
     margin-top: 15px;
     height: fit-content;
-    gap: 15px;
+    gap: 10px;
 }
 
 .final__card>.jogos {
