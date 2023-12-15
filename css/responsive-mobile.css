@@ -689,7 +689,6 @@
         }
 
         table {
-
             color: white;
             width: 100%;
             display: flex;
@@ -700,9 +699,22 @@
         }
 
         .tbody1 td.thead {
-            width: 600px;
+            width: 60px;
+            height: 40px;
             margin: 0;
             padding: 0;
+        }
+
+        td.thead.gold {
+            background-color: rgb(124, 124, 0);
+        }
+
+        td.thead.silver {
+            background-color: gray;
+        }
+
+        td.thead.bronze {
+            background-color: brown;
         }
 
         td.thead {
@@ -811,21 +823,25 @@
             flex-direction: column;
         }
 
-        .final__card{
+        .final__card {
             gap: 41.5px;
         }
 
-        .ranking__card{
+        .final__card>.jogos {
+            gap: 36.896px;
+        }
+
+        .ranking__card {
             gap: 50px;
             flex-direction: column;
         }
 
-        .ranking__position > h1{
+        .ranking__position>h1 {
             width: 350px;
             height: 30px;
         }
-        
-        .ranking__position > p{
+
+        .ranking__position>p {
             color: white;
             background-color: #2d1c6b;
             width: 350px;
