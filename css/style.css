@@ -20,9 +20,9 @@
     --font-primaria: rgb(255, 255, 255);
     --fonte-secundaria: rgba(255, 255, 255, 0.589);
     --menu: rgb(30, 1, 82);
-    --corvos-background: rgb(0, 122, 16);
+    --corvos-background: rgb(173, 2, 2);
     --azus-background: rgb(204, 0, 136);
-    --aguias-background: rgb(29, 18, 189);
+    --aguias-background: rgb(21, 67, 192);
     --yeshua-background: rgb(82, 82, 82);
     --kadosh-background: rgb(255, 255, 255);
     --yokohama-background: rgb(0, 0, 0);
@@ -820,7 +820,7 @@ tbody th {
 .final__card {
     margin-top: 15px;
     height: fit-content;
-    gap: 10px;
+    gap: 13px;
 }
 
 .final__card>.jogos {
